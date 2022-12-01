@@ -49,8 +49,6 @@ body {
 /* bilde */
 .bilde1 {
     width: 40%;
-    /*height: auto;*/
-    /* Center image */
     display: block;
     margin-left: auto;
     margin-right: auto;               
