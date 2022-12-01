@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(255, 249, 227);
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    line-height: 1.5;
+}
+
+
+/*Navigasjonsmeny øverst*/
+
+#meny {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(234, 187, 69);
+    padding: 1%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1; 
+}
+
+.index_link {
+    float: left; margin: 8px;  
+}
+
+.meny_link {
+    float: left; margin: 8px;  
+}
+.booking_link {
+    float: left; margin: 8px;  
+}
+
+.tilgjengelighet_link {
+    float: left; margin: 8px;  
+}
+
+.aktuelt_link {
+    float: left; margin: 8px;  
+}
+/*Ferdig med navigasjonsmeny*/
+
+
+/*Overskrift*/
+
+.overskrift{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-top: 3%;
+}
+
+#bildeOverskrifter{
+    font-size: medium;
+}
+
+/*Boks med bookinginfo*/
+
+.booking {
+    width: 70%; 
+    margin: 0 auto;
+    font-size: large;
+}
+
+
+/*Bildegalleri*/
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: large;
+}
+
+.gallery {
+    box-sizing: border-box;
+    margin: 3%;
+    border: 3px solid goldenrod;
+}
+
+.gallery:hover {
+    border: 3px solid goldenrod;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.bilde1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.bilde2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.bilde3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.bilde4 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.responsive {
+    padding: 0 8px;
+    float: left;
+    width: 35%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Bildegalleri slutt*/
+
+
+/*Bunntekst*/
+
+.bunntekst {
+    width: 100%;
+    top: auto;
+    background-color: white(234, 187, 69);
+    display: flex;
+    justify-content: center;
+}
+
+.åpningstider {
+    float: left;
+    margin: 15px;
+}
+
+.kontaktInfo {
+    float: left;
+    margin: 15px;
+}
+
+.Adresse {
+    float: left;
+    margin: 15px;
+}

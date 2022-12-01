@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(255, 249, 227);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* navigasjonsmeny øverst */
+#meny {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(234, 187, 69);
+    padding: 1%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1; 
+}
+
+.index_link {
+    float: left; margin: 8px;
+}
+
+.meny_link {
+    float: left; margin: 8px;
+}
+.booking_link {
+    float: left; margin: 8px;
+}
+
+.tilgjengelighet_link {
+    float: left; margin: 8px;  
+}
+
+.aktuelt_link {
+    float: left; margin: 8px;
+}
+/*Ferdig med navigasjonsmeny */
+
+
+/*Overskrift */
+.overskrift {
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-top: 3%;
+}
+
+/* bilde */
+.bilde1 {
+    width: 40%;
+    /*height: auto;*/
+    /* Center image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;               
+}
+
+/* Boks med info om vertshuset */
+.tekstboks1 {
+    position: relative; top: 40px;
+    font-size: large;
+    width: 60%;
+    padding: 5px;
+    border: 5px solid goldenrod;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 50px; 
+}
+
+/*Formatering av bunntekst */
+.bunntekst {
+    width: 100%;
+    top: auto;
+    background-color: white(234, 187, 69);
+    display: flex;
+    justify-content: center;      
+}
+
+.åpningstider{
+    float: left; margin: 15px;     
+}
+
+.Adresse {
+    float: left; margin: 15px;
+}

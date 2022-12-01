@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(255, 249, 227);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/*Navigasjonsmeny øverst*/
+
+#meny {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(234, 187, 69);
+    padding: 1%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1; 
+}
+
+.index_link {
+    float: left; margin: 8px;
+}
+
+.meny_link {
+    float: left; margin: 8px;
+}
+.booking_link {
+    float: left; margin: 8px;
+}
+
+.tilgjengelighet_link {
+    float: left; margin: 8px;  
+}
+
+.aktuelt_link {
+    float: left; margin: 8px;
+}
+/*Ferdig med navigasjons meny*/
+
+
+
+.overskrift{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-top: 3%;
+}
+
+
+/*Plasserer tekst og bilder i boks*/
+
+#boks {
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 50px; 
+    border: 5px solid goldenrod;
+}
+
+
+/*Bilde-størrelse*/
+
+.bilder{
+   height: 40%;
+   width: 40%;
+}
+
+
+/*Bunntekst*/
+
+.bunntekst {
+    width: 100%;
+    top: auto;
+    background-color: white(234, 187, 69);
+    display: flex;
+    justify-content: center;
+}
+
+.åpningstider {
+    float: left;
+    margin: 15px;
+}
+
+.kontaktInfo {
+    float: left;
+    margin: 15px;
+}
+
+.Adresse {
+    float: left;
+    margin: 15px;
+}  

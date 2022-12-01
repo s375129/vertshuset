@@ -1,0 +1,86 @@
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Velkommen til Vertshuset! </title>
+    </head>
+
+    <body>
+        <!--Navigasjonsmeny--> 
+        <nav id="meny">
+            <div class="index_link"><a href="../index.html" style="text-decoration: none">Hjem</a></div>
+            <div class="meny_link"><a href="../Meny/cafe.html" style="text-decoration: none">Meny</a></div>
+            <div class="booking_link"><a href="../Booking/Booking.html" style="text-decoration: none">Booking</a></div>
+            <div class="tilgjengelighet_link"><a href="../Tilgjengelighet/tilgjengelighet.html" style="text-decoration: none">Tilgjengelighet</a></div>
+            <div class="aktuelt_link"><a href="../Aktuelt/aktuelt.html" style="text-decoration: none">Aktuelt</a></div>
+        </nav>
+        
+        <!--Overskrift-->
+        <header>
+            <div class="overskrift"> <h1>Nettsidens tilgjengelighet</h1> </div>
+        </header> 
+
+        <article>
+            <div id="boks">
+
+            <!--Alle wave bildene og bilde av nettsiden på mobil er lagret i bilder under Tilgjengelighet; her er de i full størrelse og lettere å lese.-->
+            <p> 
+                Gjennom utviklingen av nettsiden vår hadde vi stort fokus på å hele tiden lage og forbedre koden vår. Når det kom til å se over nettsiden vår valgte vi å bruke WAVE. Vi installerte WAVE som en utvidelse i Chrome nettleseren, dette for at vi hele tiden enkelt kunne bruke utvidelsen til å sjekke tilgjengeligheten av nettsiden vår, samt. korrigere feil / varsler “on-the-go”.  
+            </p>
+            <img src="./Bilder/wave.hjemmeside.png" alt="wave bilde av hjemmesiden" class="bilder">¨
+
+            <p>
+                For eksempel støttet vi på et varsel fra WAVE på reservasjons siden vår om at vi gikk direkte fra “h1” til “h4”. Vi rettet dette ved å gjøre om header overskriftene i riktig rekkefølge og i stedet endret fontstørrelsen i css. Vi endret også navigasjonsmenyen til å være “nav” tags istedenfor “div”. Dette fikk vi ros for av WAVE. Det finnes mange flere slike eksempler gjennom hele utviklingen av prosjektet vårt, og vi tok i bruk dem alle.
+            </p>
+            <img src="./Bilder/wave.booking.png" alt="wave bilde av reservasjonsside/bookingside" class="bilder">
+
+            <p>
+                På toppen av alle sidene våres ligger det en navigasjonsmeny som alltid er synlig og brukbar. Denne valgte vi å utvikle med tanke på brukervennlighet. Med denne menyen kan man navigere hvor enn man ønsker på nettsiden vår uavhengig av hvor på sidene man befinner seg (unntak er “Aktuelt”). Ved å gjøre det slik blir det enklere og raskere for brukere å finne frem til det man ønsker seg.
+            </p>
+
+            <p>
+                På bunnen av alle sidene våres (unntatt “Aktuelt”) ligger det kontakt informasjon og instrukser om hvor man finner vertshuset. Vi valgte å gjøre informasjonen her interaktiv ved at for eksempel hvis man trykker på telefonnummeret, vil du automatisk få opp en dialog om å ringe vertshuset (om dette støttes av nettleseren). Denne informasjonen ligger på samme sted og er lik uavhengig av hvilken side man befinner seg på. Dette gjorde vi bevisst med tanke på universell utforming og tilgjengelighet, da mange nettsider har et slikt oppsett og det er da logisk for brukeren å scrolle ned hvis man ønsker å finne slik informasjon. Det er også veldig enkelt å finne da det eksisterer på samme sted på alle sidene.
+            </p>
+
+            <p>     
+                Vi valgte å lage en enkelt og estetisk ren side hvor vi hadde fokus på at den skulle være enkel å lese og navigere. Vi brukte enkle, lyse bakgrunnsfarger med svart tekst for å få store kontraster, samt holde bakgrunnen enkel. Dette gjør at den er lett leselig for alle aldersgrupper å bruke. I tillegg gjør den enkle siden det lettere for folk med nedsatt syn å bruke den. På “aktuelt-siden” valgte vi å skille oss ut fra dette med å bla. bruke bakgrunnsbilde for å vise litt mere kreativitet.  
+            </p>
+
+            <p>
+                Vi har også lagt fokus på at nettsiden skal fungere på de fleste telefoner, og sjekket dette via en Chrome utvidelse hvor man kan simulere hvordan siden vil se ut på en telefon.
+            </p>
+
+            <img src="./Bilder/nettsidemobil.png" alt="bilde av nettsiden på mobil extension">
+            <p>
+                Når det kommer til kildehenvisning vil det ikke forekomme på noen på bildene våre, etter som vi valgte å lage/ta disse selv gjennom “The Sims 4” (som vi skapte/lagde). Andre kilder er blitt henvist.
+            </p>
+
+            </div>
+        </article>
+
+        <!--Bunntekst med kontakt og stedsinfo -->
+        <footer>
+            <br>
+            <hr color="goldenrod">
+            <div class="bunntekst">
+                    <div class="KontaktInfo">
+                    <dl>
+                        <dt>Hjelp? </dt>
+                        <dt>Ring oss på: <a href="tel:41 55 00 22" style="text-decoration: none">41 55 00 22</a></dt>
+                        <dt>Epost: <a href="mailto:hjelp@vertshuset.no" style="text-decoration: none">hjelp@vertshuset.no</a></dt>
+                    </dl>
+                </div>
+
+                <div class="Adresse">
+                    <dl>
+                        <dt>Besøk oss på:<dt>
+                        <dt><a href="../index.html" style="text-decoration: none">www.vertshuset.no</a></dt>
+                        <dt><a href="https://goo.gl/maps/ttMTdZ28M5nEvqvr5" style="text-decoration: none" target="_blank">Pilestredet 35, 0166 Oslo</a></dt>
+                    </dl>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

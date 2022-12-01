@@ -1,0 +1,87 @@
+body {
+    margin: 0 auto;
+    background-image: url('../Bilder/aktuelt_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*For å midtstille meny */
+#plassereMeny{
+    width: 100%;
+    height: 5%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Navigasjons meny*/
+#meny {
+    margin: 15px;
+    width: 590px;
+    height: 40px;
+    background-color:rgba(241, 238, 233, 0.882);
+    padding: 1%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+  
+.index_link {
+    float: left; margin: 8px;  
+}
+
+.meny_link {
+    float: left; margin: 8px;  
+}
+
+.booking_link {
+    float: left; margin: 8px;  
+}
+
+.tilgjengelighet_link {
+    float: left; margin: 8px;  
+}
+
+.aktuelt_link {
+    float: left; margin: 8px;  
+}
+/*Ferdig med navigasjonsmeny */
+
+
+
+#article {
+    width: 45%; /* 21cm */
+    padding: 5%; /* 2cm */
+    margin: 70px auto; /* 1cm */
+    align-content: center;
+    border-radius: 10px;
+    background: white;
+    background-image: url('../Bilder/article_background.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    word-wrap: break-word;
+} 
+
+#article_picture_src {
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#article_footnote {
+    font-style: italic;
+    font-size: smaller;
+}
+
+#article_background_src {
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#website_background_src {
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.8);
+}
